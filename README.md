@@ -1,5 +1,5 @@
 <h3>Install Package</h3>
-Nuget Package Manager
+Nuget Package Manager </br>
   Install-Package Microsoft.EntityFrameworkCore -Version 6.0.3
 
 <h3>Configuration</h3>
@@ -7,7 +7,7 @@ Nuget Package Manager
   <pre>
   "ConnectionStrings": 
   {
-    "DefaultConnection": "Server=<b>server_path</b>; Database=<b>database_name<b>; Trusted_Connection=true;"
+    "DefaultConnection": "Server=<b>server_path</b>; Database=<b>database_name</b>; Trusted_Connection=true;"
   }
   </pre>
   
@@ -18,5 +18,3 @@ Nuget Package Manager
     "ApiKey": "<b>Enter Google Api Key</b>"
   }
   </pre>
-  
-  That's all!
