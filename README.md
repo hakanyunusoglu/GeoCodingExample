@@ -1,12 +1,13 @@
 <h3>Install Package</h3>
-  Install-Package Microsoft.EntityFrameworkCore -Version 7.0.0-preview.2.22153.1
+Nuget Package Manager
+  Install-Package Microsoft.EntityFrameworkCore -Version 6.0.3
 
 <h3>Configuration</h3>
   Add ConnectionString path in the root of your appsettings.json
   <pre>
   "ConnectionStrings": 
   {
-    "DefaultConnection": "Server={server_path}; Database={database_name}; Trusted_Connection=true;"
+    "DefaultConnection": "Server=<b>server_path</b>; Database=<b>database_name<b>; Trusted_Connection=true;"
   }
   </pre>
   
@@ -14,7 +15,7 @@
    <pre>
   "GoogeGeoCodingApi": 
   {
-    "ApiKey": "{Enter Google Api Key}"
+    "ApiKey": "<b>Enter Google Api Key</b>"
   }
   </pre>
   
