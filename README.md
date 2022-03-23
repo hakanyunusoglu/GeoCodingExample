@@ -17,3 +17,5 @@
     "ApiKey": "{Enter Google Api Key}"
   }
   </pre>
+  
+  That's all!
