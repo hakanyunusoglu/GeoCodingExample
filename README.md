@@ -1,5 +1,5 @@
 <h3>Install Package</h3>
-Nuget Package Manager </br>
+<i>Nuget Package Manager</i> </br></br>
   Install-Package Microsoft.EntityFrameworkCore -Version 6.0.3
 
 <h3>Configuration</h3>
